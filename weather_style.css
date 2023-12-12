@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vids{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://w0.peakpx.com/wallpaper/372/636/HD-wallpaper-vector-autumn-theme-jpg-yellow-autumn-theme-orange.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.cdgkd h1,h3{
+    line-height: 30px;
+}
+
+.idinpt{
+    height: 20px;
+}
+
+
+
+.container{
+    height: 590px;
+    width: 410px;
+    border-radius: 37px;
+    background-image: url('https://e7.pngegg.com/pngimages/182/601/png-clipart-ipad-computer-icons-free-ipad-s-black-ipad-gadget-electronics-thumbnail.png');    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outerbox{
+    height: 470px;
+    width: 352px;
+    border: 2px solid black;
+    border-radius:2px;
+    background-color: #dddd;
+
+
+
+}
+
+.outerbox input{
+    height: 20px;
+    width: 74%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+
+
+
+}
+
+.outerbox button{
+    width: 50px;
+    border-radius: 5px;
+   
+
+
+
+}
+
+.outerbox #iimg{
+    width: 100%;
+    height: 185px;
+    background: url('/img/weather-Clear.png');
+    background-size:75%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+.outerbox h1{
+   text-align: center;
+}
+
+.outerbox p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+ }
+
+.humwin{
+    height: 100px;
+    width: 100%;
+    border-top: 2px solid #dacdcd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7px;
+} 
+
+.humwin .part1{
+    height: 90px;
+    width: 49%;
+    border-right: 1px solid black;
+    font-size: 18px;
+    padding-top: 5px;
+} 
+
+.humwin p{
+    display: inline-block;
+    font-size: 16px;
+} 
+
+.humwin .part2{
+    height: 90px;
+    width: 49%;
+    border-left: 1px solid black;
+    padding-top: 5px;
+    font-size: 18px;
+    
+} 
+
+
+.clr{
+    color: rgb(38, 38, 179);
+}
