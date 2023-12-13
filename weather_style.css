@@ -129,49 +129,106 @@
  }
 
  .footl1 i,p{
-    color: #fff;
+    color: #000;
+    padding: 3px;
+    font-weight: 700;
 
  }
 
  .footr1 i,p{
-    color: #fff;
+    color: #000;
 
  }
 
 .humwin{
-    height: 100px;
     width: 100%;
-    border-top: 2px solid #dacdcd;
     border-radius: 5px;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     margin-top: 7px;
 } 
 
-.humwin .part1{
-    height: 90px;
-    width: 49%;
-    border-right: 1px solid black;
-    font-size: 18px;
-    padding-top: 5px;
-} 
+
 
 .humwin p{
     display: inline-block;
     font-size: 16px;
 } 
 
-.humwin .part2{
-    height: 90px;
-    width: 49%;
-    border-left: 1px solid black;
-    padding-top: 5px;
-    font-size: 18px;
-    
-} 
+
 
 
 .clr{
-    color: #fff;
+    color: #000;
 }
+
+.weatherConditions{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px;
+    margin: 7px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* .one{
+    
+    background-image: url('https://static.vecteezy.com/system/resources/previews/021/349/645/original/humidity-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.two{
+    
+    background-image: url('https://static.vecteezy.com/system/resources/previews/022/962/714/original/cold-and-hot-icon-temperature-illustration-sign-thermometer-symbol-heat-logo-vector.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.three{
+    
+    background-image: url('https://img.freepik.com/premium-vector/thermometer-icon-temperature-symbol-emblem-vector-illustration_231786-4661.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.four{
+    
+    background-image: url('https://www.pngitem.com/pimgs/m/65-653478_pre-icons-download-for-free-in-png-and.png');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.five{
+    
+    background-image: url('https://cdn.vectorstock.com/i/preview-1x/19/40/wind-icon-vector-1541940.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.six{
+   
+    background-image: url('https://w7.pngwing.com/pngs/43/145/png-transparent-compass-rose-wind-degree-north-bearing-wind-angle-text-meteorology-thumbnail.png');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.seven{
+    
+    background-image: url('https://thumbs.dreamstime.com/b/visibility-icon-vector-isolated-white-background-your-web-mobile-app-design-visibility-logo-concept-visibility-icon-133828657.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.eight{
+    
+    background-image: url('https://asset.brandfetch.io/idt3n8W3ef/idgEzuzwRW.png');
+    background-blend-mode: darken;
+    background-size: cover;
+} */

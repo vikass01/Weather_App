@@ -90,7 +90,9 @@ function zxcc (event){
     }else {
         console.log("Enter City Name");
     }
-}    
+}  
+
+enterbtn = document.getElementsByClassName(".vngji")
 
 
 
