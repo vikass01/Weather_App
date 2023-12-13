@@ -8,19 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
+<div class="container">
     <div class="vids">
-       
-    <div class="container">
         <div class="outerbox">
-            <a style="position: relative; left: 5px;"><i class="fa-solid fa-location-dot"></i></a>
-            <input type="text" placeholder="Enter City Name" name="inpt" id="idinpt" spellcheck="false" style="height: 25px;">
-            <button id = "submitt" style="height: 25px;"><i class="fa-solid fa-magnifying-glass"></i></button>
-            <p id="locc"></p>
-            <div id = "iimg"></div>
-            <h1 class="clr">0<span>&#8451;</span></h1>
-            <p id="lrain">No Idea</p>
-            ​<p id="demo"></p>
+            <div class="areaOne">
+                <p class="locationIcon"><i class="fa-solid fa-location-dot"></i></p>
+                <input type="text" placeholder="Enter City Name" name="inpt" id="idinpt" spellcheck="false" >
+                <button id = "submitt" style="height: 40px; width: 60px; margin-left: 3px;"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="areaTwo">
+                <h3 id="locc">City</h3>
+                <div class = "iimg"></div>
+                <h1 class="clr">0<span>&#8451;</span></h1>
+                <p id="lrain">Weather Status</p>
+                ​<p id="demo">Current Location</p>
+            </div>
             <div class="humwin">
                 <div class="part1">
                     <div class="footl1" style="height: 20px; width: 100%;">
@@ -71,7 +73,8 @@
             </div>
 
         </div>
-    </div>
+    
+</div>
 </div>
     <script src="/weather.js"></script>
 </body>

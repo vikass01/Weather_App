@@ -4,51 +4,73 @@
     box-sizing: border-box;
 }
 
-.vids{
+.container {
     width: 100vw;
     height: 100vh;
-    background-image: url('https://w0.peakpx.com/wallpaper/372/636/HD-wallpaper-vector-autumn-theme-jpg-yellow-autumn-theme-orange.jpg');
-    background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 50px;
+    align-items: center;
 
 }
 
-.cdgkd h1,h3{
-    line-height: 30px;
-}
-
-.idinpt{
-    height: 20px;
-}
-
-
-
-.container{
-    height: 590px;
-    width: 410px;
-    border-radius: 37px;
-    background-image: url('https://e7.pngegg.com/pngimages/182/601/png-clipart-ipad-computer-icons-free-ipad-s-black-ipad-gadget-electronics-thumbnail.png');    
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.vids{
+   
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(50, 36, 241);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+
 }
 
 .outerbox{
-    height: 470px;
-    width: 352px;
-    border: 2px solid black;
-    border-radius:2px;
-    background-color: #dddd;
+    height: 98vh;
+    width: 98vw;
+    /* background-color: rgb(50, 36, 241); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
+}
+
+.areaOne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#locc{
+    background-color: transparent;
+    height: 25px;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
 
 
 }
+
+
+#idinpt{
+    height: 40px;
+    flex: 1;
+}
+
+.locationIcon{
+    width: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 .outerbox input{
     height: 20px;
@@ -74,11 +96,19 @@
 
 }
 
-.outerbox #iimg{
-    width: 100%;
-    height: 185px;
-    background: url('/img/weather-Clear.png');
-    background-size:75%;
+.areaTwo{
+    max-height: 300px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.iimg{
+    height: 40vw;
+    margin: 10px;
+    background-color: brown;
+    background: url(./img/weather-Clear.png);
+    background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -86,14 +116,26 @@
 
 }
 
-.outerbox h1{
+.areaTwo h1{
    text-align: center;
+   color: #fff;
 }
 
-.outerbox p{
+.areaTwo p{
     text-align: center;
     font-size: 14px;
     font-weight: 600;
+    color: #fff;
+ }
+
+ .footl1 i,p{
+    color: #fff;
+
+ }
+
+ .footr1 i,p{
+    color: #fff;
+
  }
 
 .humwin{
@@ -131,5 +173,5 @@
 
 
 .clr{
-    color: rgb(38, 38, 179);
+    color: #fff;
 }
